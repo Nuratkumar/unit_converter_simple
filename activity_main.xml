@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/oasis1">
+
+    <TextView
+        android:id="@+id/n05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="65dp"
+        android:textColor="@color/white"
+        android:text="  UNIT-CONVERTOR APP  "
+        android:textSize="23dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:textColor="@color/white"
+        android:text="ENTER THE LENGTH VALUE IN CM: "
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/n01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="37dp"
+        android:text="convert"
+        android:textSize="29dp" />
+
+    <TextView
+        android:id="@+id/n02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="37dp"
+        android:text="Value in Meters:"
+        android:textSize="25dp" />
+
+
+
+    <TextView
+        android:id="@+id/n03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="37dp"
+        android:textColor="@color/white"
+        android:text="Value in Milli-meters:"
+        android:textSize="25dp" />
+
+
+
+    <TextView
+        android:id="@+id/n04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="75dp"
+        android:textColor="@color/white"
+        android:layout_marginRight="37dp"
+        android:text="Value in Inches:"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
